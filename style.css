@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .layout{
@@ -12,6 +13,7 @@ body{
 .sidebar{
     background-color: dodgerblue;
     grid-row: 1 / 3;
+    padding: 30px;
 }
 
 .header{
@@ -21,4 +23,28 @@ body{
 
 .main{
     background-color: gainsboro;
+}
+
+.dashboard{
+    font-size: 30px;
+    color: white;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 12px;
+}
+
+.dashboard svg{
+    height: 1em;
+    fill: white;
+}
+
+.navigation{
+    color: white;
+    font-size: 20px;
+}
+
+.service{
+    color: white;
+    font-size: 20px;
 }
