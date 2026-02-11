@@ -42,9 +42,43 @@ body{
 .navigation{
     color: white;
     font-size: 20px;
+    display: grid;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.nav-item{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 15px;
+}
+
+.navigation svg{
+    height: 1em;
+    fill: white;
 }
 
 .service{
     color: white;
     font-size: 20px;
+    display: grid;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.service-item{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 15px;
+}
+
+.service svg{
+    height: 1em;
+    fill: white;
+}
+
+.left svg{
+    height: 2em;
 }
