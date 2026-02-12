@@ -5,13 +5,13 @@ body{
 
 .layout{
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 3fr;
+    grid-template-columns: auto 3fr;
+    grid-template-rows: auto 3fr;
     min-height: 100vh;
 }
 
 .sidebar{
-    background-color: dodgerblue;
+    background-color: #2f86d9;
     grid-row: 1 / 3;
     padding: 30px;
 }
@@ -81,4 +81,92 @@ body{
 
 .left svg{
     height: 2em;
+}
+
+.top-line input{
+    border: none;
+    background-color: gainsboro;
+    border-radius: 20px;
+    padding: 7px;
+    flex: 0.7;
+    height: 20px;
+}
+
+.top-line .left{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.right svg{
+    height: 2em;
+}
+
+.top-line{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.right img{
+    border-radius: 50%;
+    height: 3rem;
+}
+
+.name{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.top-line .right{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-right: 40px;
+    justify-self: end;
+}
+
+.bot-line{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.bot-line img{
+    border-radius: 50%;
+    height: 5rem;
+}
+
+.bot-line .left{
+    display: flex;
+    gap: 30px;
+}
+
+.text-lines{
+    font-weight: 500;
+}
+
+.bot-line .right{
+    display: flex;
+    margin-right: 40px;
+    justify-self: end;
+    gap: 40px;
+    align-items: center;
+}
+
+button{
+    background-color: #2f86d9;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 28px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #1f6fbf;
 }
