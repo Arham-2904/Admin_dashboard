@@ -170,3 +170,55 @@ button{
 button:hover{
     background-color: #1f6fbf;
 }
+
+.your-projects p{
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.project{
+    min-height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    border-left: 15px solid #fbbf24;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.icons svg{
+    height: 2em;
+}
+
+.icons{
+    display: flex;
+    align-self: flex-end;
+    margin-top: auto;
+    gap: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.project h3{
+    margin: 0;
+}
+
+.project p{
+    font-weight: 400;
+    color: #555;
+    margin: 0;
+}
