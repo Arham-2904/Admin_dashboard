@@ -23,6 +23,9 @@ body{
 
 .main{
     background-color: gainsboro;
+    align-items: start;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 .dashboard{
@@ -195,11 +198,6 @@ button:hover{
     padding: 20px;
 }
 
-.main{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-}
-
 .icons svg{
     height: 2em;
 }
@@ -213,12 +211,88 @@ button:hover{
     margin-bottom: 10px;
 }
 
-.project h3{
+.project h4{
     margin: 0;
 }
 
 .project p{
     font-weight: 400;
     color: #555;
+    margin: 0;
+}
+
+.announcements > p{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.widget{
+    background-color: white;
+    margin-right: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.unit p{
+    font-weight: 400;
+    color: #555;
+    margin: 0;
+}
+
+.unit h4{
+    margin: 0px;
+}
+
+.unit{
+    margin: 15px;
+}
+
+hr{
+    border: none;
+    border-top: 2px solid lightgray;
+    margin: 10px 20px;
+}
+
+.trending > p{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 15px;;
+}
+
+.title{
+    font-weight: 400;
+    color: #555;
+}
+
+.account img{
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 25px;
+    padding: 22px;
+}
+
+.text{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.text p{
     margin: 0;
 }
